@@ -1,3 +1,5 @@
+permalink: pretty
+
 plugins:
   - jekyll-remote-theme
 
