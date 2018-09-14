@@ -6,7 +6,7 @@ Routers are the components of the Internet that direct packages of data across v
   - [Watch on Youtube](https://www.youtube.com/embed/n_KghQP86Sw?start=1629&end=2491)
   - [Watch on the CS50 Video Player](https://video.cs50.net/cscie1a/2017/fall/lectures/internet?t=27m09s)
   - [Download Lecture](https://cdn.cs50.net/cscie1a/2017/fall/lectures/internet/internet-720p.mp4?download)
-  - [Lecture Notes](https://cs50.github.io/technology/notes/internet/internet.html)
+  - [Lecture Notes](https://cdn.cs50.net/cscie1a/2017/fall/lectures/internet/notes/internet.html)
 
 - ### Notes
   - [Routers]({{"/assets/pdfs/unit5/routers.pdf" | relative_url }})
