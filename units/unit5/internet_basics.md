@@ -14,7 +14,7 @@ In this section, we'll discuss what the Internet is and how information travels 
   - [Watch on Youtube](https://www.youtube.com/embed/n_KghQP86Sw?start=9&end=143)
   - [Watch on the CS50 Video Player](https://video.cs50.net/cscie1a/2017/fall/lectures/internet?t=0m9s)
   - [Download Lecture](https://cdn.cs50.net/cscie1a/2017/fall/lectures/internet/internet-720p.mp4?download)
-  - [Lecture Notes](http://cdn.cs50.net/cscie1a/2017/fall/lectures/internet/notes/internet.html)
+  - [Lecture Notes](https://cdn.cs50.net/cscie1a/2017/fall/lectures/internet/notes/internet.html)
   
 - ### Short
   - [Internet Primer](https://www.youtube.com/embed/04GztBlVo_s)
