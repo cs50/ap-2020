@@ -8,7 +8,7 @@ Whether it be using complex passwords, VPNs, or firewalls, there are many ways t
   - [Watch on Youtube](https://www.youtube.com/embed/QQmFyybzon0?start=9&end=4002)
   - [Watch on the CS50 Video Player](https://video.cs50.net/cscie1a/2017/fall/lectures/security?t=0m09s)
   - [Download Lecture](https://cdn.cs50.net/cscie1a/2017/fall/lectures/security/security-720p.mp4?download)
-  - [Lecture Notes](https://cs50.github.io/technology/notes/security/security.html)
+  - [Lecture Notes](http://cdn.cs50.net/cscie1a/2017/fall/lectures/security/notes/security.html)
 
 - ### Notes
   - [Cybersecurity]({{"/assets/pdfs/unit5/cybersecurity.pdf" | relative_url }})
