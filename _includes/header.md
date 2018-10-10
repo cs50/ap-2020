@@ -1,4 +1,5 @@
 # [CS50 AP]({{ "/" | relative_url }})
 
-Harvard University\\
+Colony High
+Mr. Mead\\
 2018–2019
