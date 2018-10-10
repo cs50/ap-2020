@@ -1,5 +1,5 @@
 # [CS50 AP]({{ "/" | relative_url }})
 
-Colony High
+Colony High -
 Mr. Mead\\
 2018–2019
