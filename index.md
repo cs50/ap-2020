@@ -2,8 +2,7 @@
 title: false
 ---
 
-# Hello, Timberwolves!
-![alt text](assets/CS_Logo_S.png "Travis Computer Science")
+# Hello, Timberwolves!![alt text](assets/CS_Logo_S.png "Travis Computer Science")
 
 This is Computer Science Fundamentals, rougly basded on Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for students in high school. Travis eighth grade students will receive high school credit for successful completion of this course.
 
