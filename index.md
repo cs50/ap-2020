@@ -2,7 +2,7 @@
 title: false
 ---
 
-<div style="float: center">
+<div style="float: right">
     <img style="align: right" src="assets/CS_Logo_S.png">
 </div>
 
