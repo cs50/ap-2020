@@ -3,10 +3,10 @@ title: false
 ---
 
 <div style="float: right">
-    ![alt text](assets/CS_Logo_S.png "Travis CS")
+    <img style="align: right" src="assets/CS_Logo_S.png">
 </div>
 
-# Hello, Timberwolves! <img style="align: right;" src="assets/CS_Logo_S.png">
+# Hello, Timberwolves! 
 
 This is Computer Science Fundamentals, rougly basded on Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for students in high school. Travis eighth grade students will receive high school credit for successful completion of this course.
 
