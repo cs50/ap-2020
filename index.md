@@ -2,6 +2,9 @@
 title: false
 ---
 
+<div style="float: right">
+    ![assets/CS_Logo_S.png]("Title")
+</div>
 
 # Hello, Timberwolves! <img style="align: right;" src="assets/CS_Logo_S.png">
 
