@@ -3,7 +3,7 @@ title: false
 ---
 
 <div style="float: right">
-    ![assets/CS_Logo_S.png]("Title")
+    ![alt text](assets/CS_Logo_S.png "Travis CS")
 </div>
 
 # Hello, Timberwolves! <img style="align: right;" src="assets/CS_Logo_S.png">
