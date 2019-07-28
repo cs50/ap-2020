@@ -6,3 +6,5 @@ plugins:
 remote_theme: cs50/jekyll-theme-cs50
 
 title: CS50 AP
+
+theme: jekyll-theme-hacker
