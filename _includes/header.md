@@ -1,4 +1,4 @@
-# [CS50 AP]({{ "/" | relative_url }})
+# [CS Fundamentals]({{ "/" | relative_url }})
 
-Harvard University\\
-2018–2019
+WB Travis TAG\\
+2019–2020
