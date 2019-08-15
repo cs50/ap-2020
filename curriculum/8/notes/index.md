@@ -6,12 +6,10 @@
 
 ## Last time (and next times)
 
-* The CS50 Hackathon is coming up, an overnight event where students and TFs will work together on final projects. See the [Muppet Hackathon](https://www.youtube.com/watch?v=Tj84DzF6_v4) short video!
-* The CS50 Fair will come after, where students will demo their final projects!
 * We've been introduced to web programming, where we've learned to use Flask, a framework written in the language of Python, to build dynamic web-based applications.
-* The internal structure of our applications have followed a paradigm, or methology, called MVC, Model-View-Controller, where code used for different functions are organized in different files and folders, and interact with each other in predictable ways.
+* The internal structure of our applications have followed a paradigm, or methodology, called MVC, Model-View-Controller, where code used for different functions are organized in different files and folders, and interact with each other in predictable ways.
 * But until now, we haven't had much code in our Model layer. We've used CSVs to read and write data, but those rows of text are a bit clunky to work with.
-* This week's problem set, CS50 Finance will use a database language, SQL, to work with data more efficiently. The problem set will also use a real third-party API, application programming interface, to get real-time data on stock prices, allowing users to "buy" and "sell" virtual stocks.
+* CS50 Finance will use a database language, SQL, to work with data more efficiently. It will also use a real third-party API, application programming interface, to get real-time data on stock prices, allowing users to "buy" and "sell" virtual stocks. We'll be able to access the API's functions by reading its documentation.
 
 ## Logging in
 
