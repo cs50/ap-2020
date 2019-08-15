@@ -6,7 +6,7 @@ There are two servers and services crucial to the successful connection of your 
   - [Watch on Youtube](https://www.youtube.com/embed/n_KghQP86Sw?start=215&end=708)
   - [Watch on the CS50 Video Player](https://video.cs50.net/cscie1a/2017/fall/lectures/internet?t=3m35s)
   - [Download Lecture](https://cdn.cs50.net/cscie1a/2017/fall/lectures/internet/internet-720p.mp4?download)
-  - [Lecture Notes](https://cdn.cs50.net/cscie1a/2017/fall/lectures/internet/notes/internet.html)
+  - [Lecture Notes](http://cdn.cs50.net/cscie1a/2017/fall/lectures/internet/notes/internet.html)
 
 - ### Notes
   - [DNS and DHCP]({{"/assets/pdfs/unit5/dns_and_dhcp.pdf" | relative_url }})
