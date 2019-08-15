@@ -86,6 +86,7 @@
     - 8 x 1 + 4 x 0 + 2 x 0 + 1 x 0 = 8
 - Just like decimal numbers (base 10), numbers represent larger values on the left side and decrease as we move right.
 - So if we wanted to compare the binary numbers 1001 and 1010 we could start on the far left side of the number and look for where the numbers differ. The one with a 1 will be larger than the one with a 0.
+
 |8|4|2|1|
 |:--:|:--:|:--:|:--:|
 |1|0|**_0_**|1|
@@ -129,7 +130,7 @@
   - 16 bits or 2 bytes (1 byte = 8 bits)
 
   |128|64|32|16|8|4|2|1| |128|64|32|16|8|4|2|1|
-  |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+  |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
   |0  |1  |0  |0  |1  |0  |0  |0  |  |0  |1  |0  |0  |1  |0  |0  |1 |
 
   | 1 x 64 + 1 x 8 | 1 x 64 + 1 x 8 + 1 x 1|
