@@ -668,7 +668,7 @@
 * We look at demos like [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms) and [What different sorting algorithms sound like](https://www.youtube.com/watch?v=t8g-iYGHpEA) to conclude.
 * Typically programs that run at polynomial time or faster (_O(1)_, _O(n)_, _O(n<sup>2</sup>_) are considered to run in a reasonable amount of time, where as those that run at exponential or factorial time (_O(2<sup>poly(n)</sup>)_, _O(n!)_) are not.
 * There are some problems that cannot be solved in a reasonable amount of time so can use approximations, called heuristics, to get a solution that is not optimal but comes close to solving the problem.
-* Decidable problems are ones that we can determine the correct output, like whether or not a number is a number prime or not. Within this range of problems are varying levels of opportunities for optimization, or finding the best solution for a problem. Problems like the [halting problem](https://www.youtube.com/watch?v=92WHN-pAFCs) cannot determine the output of program. Like the halting problem, some of the inputs can be solved but not all.
+* Decidable problems are ones that we can determine the correct output, like whether or not a number is a number prime or not. Within this range of problems are varying levels of opportunities for optimization, or finding the best solution for a problem. Undecidable problems, like the [halting problem](https://www.youtube.com/watch?v=92WHN-pAFCs), cannot determine the output of program. Like the halting problem, some of the inputs can be solved but not all.
 
 ## Computational Models
 
