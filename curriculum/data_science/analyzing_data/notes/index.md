@@ -12,7 +12,9 @@ Let's say we want to articles submitted to a scholarly journal to get published.
 
 #### 1. Cleaning data
   * If we are trying to get a sense of topic-based words we'll need to get rid of some words that are irrelevant like "the", "of", "it", etc. These are referred to as "stop words".
+
   ![top 100 words](top_100_words.jpg)
+  
   * We also might want to consider treating capitalized words the same as their lowercased equivalents. This step can vary based on how the data is collected. Are users selecting items from a drop down menu or multiple choice? Or are they writing answers in an open field?
   * If we really wanted to be fancy we could lemmatize the data set, which means we would only be working with root words. Words like "run", "ran", "runs", and "running" would all count as the same word.
   * These methods allow all of our data to be uniform so that it is easier to analyze, without changing the primary data.
