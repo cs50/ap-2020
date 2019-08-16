@@ -4,7 +4,7 @@
 * TOC
 {:toc}
 
-## Last time (and next times)
+## Last time (and next time)
 
 * We've been introduced to web programming, where we've learned to use Flask, a framework written in the language of Python, to build dynamic web-based applications.
 * The internal structure of our applications have followed a paradigm, or methodology, called MVC, Model-View-Controller, where code used for different functions are organized in different files and folders, and interact with each other in predictable ways.
