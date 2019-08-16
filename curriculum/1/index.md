@@ -21,3 +21,13 @@
   * [Sandbox](https://sandbox.cs50.io/fbe800b2-4c6f-4bf4-8642-a853ee08ce5d)
   * [ZIP](https://cdn.cs50.net/2018/fall/lectures/1/src1.zip)
 * [Video](https://video.cs50.net/2018/fall/lectures/1)
+* Reference Sheets
+  * [Boolean Expressions](https://ap.cs50.school/assets/pdfs/boolean_expressions.pdf)
+  * [Data Types](https://ap.cs50.school/assets/pdfs/data_types.pdf)
+  * [Functions](https://ap.cs50.school/assets/pdfs/functions.pdf)
+  * [Libraries](https://ap.cs50.school/assets/pdfs/libraries.pdf)
+  * [Loops](https://ap.cs50.school/assets/pdfs/loops.pdf)
+  * [Operators](https://ap.cs50.school/assets/pdfs/operators.pdf)
+  * [Principles of Good Design](https://ap.cs50.school/assets/pdfs/principles_of_good_design.pdf)
+  * [Syntax](https://ap.cs50.school/assets/pdfs/syntax.pdf)
+  * [Variables](https://ap.cs50.school/assets/pdfs/variables.pdf)

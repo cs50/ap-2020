@@ -16,3 +16,5 @@
   * [Sandbox](https://sandbox.cs50.io/bf2e6473-45bc-4ac4-bee2-7cd9b89aa6a8)
   * [ZIP](https://cdn.cs50.net/2018/fall/lectures/6/src6.zip)
 * [Video](https://video.cs50.net/2018/fall/lectures/6)
+* Reference Sheet
+  * [Python](https://ap.cs50.school/assets/pdfs/python.pdf)

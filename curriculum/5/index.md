@@ -20,3 +20,12 @@
   * [Sandbox](https://sandbox.cs50.io/b0df4352-0dac-4722-bfc7-fe58e4c91bf5), in which you can run `http-server` and then click circular reload icon in embedded browser
   * [ZIP](https://cdn.cs50.net/2018/fall/lectures/5/src5.zip)
 * [Video](https://video.cs50.net/2018/fall/lectures/5)
+* Reference Sheets
+  * [CSS](https://ap.cs50.school/assets/pdfs/css.pdf)
+  * [DNS and DHCP](https://ap.cs50.school/assets/pdfs/dns_and_dhcp.pdf)
+  * [HTML](https://ap.cs50.school/assets/pdfs/html.pdf)
+  * [HTTP](https://ap.cs50.school/assets/pdfs/http.pdf)
+  * [Internet Basics](https://ap.cs50.school/assets/pdfs/internet_basics.pdf)
+  * [IP Addresses](https://ap.cs50.school/assets/pdfs/ip_addresses.pdf)
+  * [JavaScript](https://ap.cs50.school/assets/pdfs/javascript.pdf)
+  * [TCP and IP](https://ap.cs50.school/assets/pdfs/tcp_and_ip.pdf)
