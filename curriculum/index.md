@@ -10,7 +10,7 @@
 * [Chapter 7](7)
 * [Chapter 8](8)
 
-# AP Track
+# AP Modules
 
 * [Understanding Technology](understanding_technology)
 * [Data Science](data_science)
