@@ -65,7 +65,7 @@ int main(void)
     // Use current time as seed for random generator
     srand(time(0));
     // Picks a number between 0 and 9
-    int ticket = rand()%10;
+    int ticket = rand() % 10;
     // Prints the ticket number
     printf("%i \n", ticket);
 
