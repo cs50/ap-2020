@@ -4,7 +4,7 @@
 * TOC
 {:toc}
 
-## Last Week
+## Last Time
 
 * We learned that, thanks to many layers of abstraction and those who came before us, we can easily write programs that are ultimately just binary, 0s and 1s.
 * Problem solving can be described as taking some inputs (a problem) and using an algorithm to find some outputs (a solution).
