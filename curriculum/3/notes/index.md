@@ -45,7 +45,7 @@
 ## Tools
 
 * In the CS50 IDE, we've also added another tool, `check50`. Like `style50`, we wrote this tool to automatically check the correctness of your programs, by passing in inputs and looking at their outputs.
-* After we write a program from a problem set, and have tested it ourselves with a few inputs, we can type `check50 cs50/2018/fall/hello`. The `cs50/2018/fall/hello` is an indicator for the program specification that `check50` should check, and once we run that command, we'll see `check50` uploading our code and checking it.
+* After we write a program from a problem set, and have tested it ourselves with a few inputs, we can type `check50 cs50/problems/2019/ap/hello`. The `cs50/problems/2019/ap/hello` is an indicator for the program specification that `check50` should check, and once we run that command, we'll see `check50` uploading our code and checking it.
 * We can also now use a tool called a *debugger*, built into the CS50 IDE.
 * After we compile our code, we can run `debug50 ./hello`, which will tell us to set a breakpoint first. A *breakpoint* indicates a line of code where the debugger should pause our program, until we choose to continue it. For example, we can click to the left of a line of our code, and a red circle will appear:<br>
   ![code editor with red icon next to line 6 of code](/breakpoint.png)
@@ -59,7 +59,7 @@
 ## Strings
 
 * We've been using helpful functions from the CS50 Library, like `get_int` or `get_string`, to get input of a specific type from the user. These functions are generally tricky to write, because we want to prompt the user over and over again, if the input they give us isn't actually valid.
-* Today, we'll look into the `string` type. As we learned last week, a string is just an array of characters, stored back-to-back. But let's investigate what a `string` variable actually is.
+* Today, we'll look into the `string` type. As we learned last time, a string is just an array of characters, stored back-to-back. But let's investigate what a `string` variable actually is.
 * Let's open `compare0.c`:
   ```c
   #include <cs50.h>
