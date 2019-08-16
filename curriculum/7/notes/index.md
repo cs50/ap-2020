@@ -4,7 +4,7 @@
 * TOC
 {:toc}
 
-## Last times
+## Last time
 
 * Last time, we learned about Python, a programming language that comes with many features and libraries. Today, we'll use Python to generate HTML for webpages, and see how separations of concerns might be applied.
 * A few weeks ago, we learned about web requests in HTTP, which might look like this:

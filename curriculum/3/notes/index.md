@@ -235,7 +235,7 @@
       }
   }
   ```
-  * The return value for `strcmp`, based on looking at documentation like [CS50 Reference](https://reference.cs50.net/), will be `0` if the strings are equal, or some other value if they are different.
+  * The return value for `strcmp`, based on looking at documentation like the [CS50 Programmer's Manual](https://man.cs50.io/), will be `0` if the strings are equal, or some other value if they are different.
 * We should also be checking for other errors, that we haven't paid attention to before.
 * `get_string` is supposed to return the address to the first byte of a string, but sometimes it may return `NULL`, an invalid address that indicates something went wrong. (And that address has the value of `0`, which is a special address that isn't used to store anything.)
 * To check for errors, we might do this:
