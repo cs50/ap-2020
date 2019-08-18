@@ -8,7 +8,7 @@
 
 * When David was a freshman, he was too intimidated to take any computer science classes. But even if the topic feels out of your comfort zone, know that we'll fill in all the blanks along the way, until we are all on the same page.
 * In fact, 68% of CS50 students have never taken a CS course before.
-* To support you, there is an amazing staff, sections, and office hours.
+* Your teacher will support you in reaching your goals. When appropriate, you may also get to consult with peers, but collaborative solutions are generally not acceptable.
 * And importantly, too:
   > what ultimately matters in this course is not so much where you end up relative to your classmates but where you end up relative to where you started.
 
