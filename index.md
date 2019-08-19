@@ -2,10 +2,6 @@
 title: false
 ---
 
-<div style="float: right">
-    <img style="align: right" src="assets/CS_Logo_S.png">
-</div>
-
 # Hello, Timberwolves! 
 
 <div style="float: right">
