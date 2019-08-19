@@ -14,3 +14,5 @@ Grading will follow usual middle school rules:
 Each 6 weeks will consist of 1 project, 2 tests, and a 6 weeks exam. There will generally be at least 2 classwork grades taken each week.
 
 Please address any concerns with me in person so by email as soon as they arise. Don't panic!
+
+The textbook and most assignments are viewable, but please resist the urge to read too far ahead. We are going to embark on a journey, and we will all make it successfully to the end. But to do so, you must remember: "Don't panic!"
