@@ -8,11 +8,11 @@
 * [Chapter 5](5)
 * [Chapter 6](6)
 * [Chapter 7](7)
-* [Chapter 8](8) --!>
+* [Chapter 8](8)
 
-<!-- # Project Modules
+# Project Modules
 
-* [Understanding Technology](understanding_technology)
+<!-- * [Understanding Technology](understanding_technology)
 * [Data Science](data_science)
-* [Impact of Computing](impact_of_computing) --!>
+* [Impact of Computing](impact_of_computing)
 
