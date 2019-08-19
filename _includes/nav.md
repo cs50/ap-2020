@@ -11,4 +11,5 @@
 ***
 
 * [**Curriculum**]({{ "/curriculum" | relative_url }})
+* [Syllabus]({{ "/info/syllabus.md" | relative_url }})
 * [Tools]({{ "/tools" | relative_url }})
