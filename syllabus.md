@@ -1,6 +1,6 @@
 # Syllabus
 
-###### [Download the full syllabus as a PDF with mappings to the AP CSP Framework's Learning Objectives](https://www.dropbox.com/s/3osf5dq3et1b13i/Syllabus%202019-20.pdf?dl=0)
+###### [Download the full syllabus as a PDF with mappings to the AP CSP Framework's Learning Objectives](https://www.dropbox.com/s/dl/3osf5dq3et1b13i/Syllabus%202019-20.pdf?dl=0)
 
 ## Description
 
