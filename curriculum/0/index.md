@@ -15,3 +15,5 @@
   * [Binary](https://ap.cs50.school/assets/pdfs/binary.pdf)
   * [Pseudocode](https://ap.cs50.school/assets/pdfs/pseudocode.pdf)
   * [Scratch](https://ap.cs50.school/assets/pdfs/scratch.pdf)
+* [Background Info](more)
+  
