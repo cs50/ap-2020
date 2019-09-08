@@ -10,6 +10,12 @@
 
 ***
 
+* [Period 2]({{ "/periods/1" | relative_url }})
+* [Period 3]({{ "/periods/5" | relative_url }})
+* [Do Now]({{ "/periods/Do now activities" | relative_url }})
+
+***
+
 * [**Curriculum**]({{ "/curriculum" | relative_url }})
 * [Tools]({{ "/tools" | relative_url }})
 * [Syllabus]({{"/syllabus" | relative_url }})
