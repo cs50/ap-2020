@@ -15,9 +15,9 @@
 * [Do Now]({{ "/periods/Do now activities" | relative_url }})
 
 
-
 ***
 
 * [**Curriculum**]({{ "/curriculum" | relative_url }})
 * [Tools]({{ "/tools" | relative_url }})
 * [Syllabus]({{"/syllabus" | relative_url }})
+* [Quizlets](https://quizlet.com/join/e4Hncdwtn)
