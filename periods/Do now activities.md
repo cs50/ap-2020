@@ -11,12 +11,12 @@
   - Wednesday 04 September [Set up your accounts](https://suzede.github.io/ap/periods/1/) for College Board, Github, CS50 submit and Quizlet
 
 - ### Week 3
-  -Tuesday 10 September: 
-  - 0. find an elbow partner 
-  - 1. if they are on your row find another elbow partner
-  - 2. swap information about which algorithm video was your favourite. 
-  - 3. if you are the tallest of the pair, then talk through your sketch note with your partner first
-  - 4. else let your partner talk through their sketch note with you first
-  - 5. compare your sketchnotes
-  - 6. if your sketch note is missing any points, then update your sketchnote with content
-  - 7. else checkout the memory and algorithms Quizlet
+  - Tuesday 10 September: 
+  - find an elbow partner 
+  - if they are on your row find another elbow partner
+  - swap information about which algorithm video was your favourite. 
+  - if you are the tallest of the pair, then talk through your sketch note with your partner first
+  - else let your partner talk through their sketch note with you first
+  - compare your sketchnotes
+  - if your sketch note is missing any points, then update your sketchnote with content
+  - else checkout the memory and algorithms Quizlet
