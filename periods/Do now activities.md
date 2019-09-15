@@ -20,3 +20,6 @@
   - compare your sketchnotes
   - if your sketch note is missing any points, then update your sketchnote with content
   - else checkout the memory and algorithms Quizlet
+  
+- ### Week 4
+  - Monday 15 September: Go to this [google forms](https://forms.gle/6NSbSvMXAeWKkHHB9) and first take the survey to guide your next steps for today's class on Scratch.
