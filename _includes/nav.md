@@ -21,3 +21,4 @@
 * [Tools]({{ "/tools" | relative_url }})
 * [Syllabus]({{"/syllabus" | relative_url }})
 * [Quizlets](https://quizlet.com/join/e4Hncdwtn)
+* [Explore task](https://drive.google.com/open?id=1V7_DELJEYSOO9qVxuK1Ujrg7eHwV4Hlm)
