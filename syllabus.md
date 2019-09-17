@@ -131,20 +131,22 @@ The Development Process. Scaling. Models. Simulations. The Digital Divide. Ethic
 
 ## Recommended Order
 
-1. Understanding Technology
-2. Chapter 0
-3. Performance Task 1: Explore
-4. Chapter 1
-5. Chapter 2
-6. Chapter 3
-7. Chapter 4
-8. Data Science
-9. Chapter 5
-10. Chapter 6
-11. Chapter 7
-12. Chapter 8
-13. Performance Task 2: Create
-12. Impact of Computing
+We present below a recommended ordering of the curriculum and some recommended timetables. These recommendations are based on a 36-week long school year, where students are available for 180 classroom minutes. However, student experience can vary widely; these recommendations are designed to capture an "average" class.
+
+1. Understanding Technology (3 weeks)
+2. Chapter 0 (2 weeks)
+3. Performance Task 1: Explore (2 weeks)
+4. Chapter 1 (4 weeks)
+5. Chapter 2 (3 weeks)
+6. Chapter 3 (4 weeks)
+7. Chapter 4 (2 weeks)
+8. Data Science (1 week)
+9. Chapter 5 (3 weeks)
+10. Chapter 6 (3 weeks)
+11. Chapter 7 (3 weeks)
+12. Chapter 8 (2 weeks)
+13. Performance Task 2: Create (3 weeks)
+12. Impact of Computing (1 week)
 
 ## Academic Honesty
 
