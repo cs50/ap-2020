@@ -131,7 +131,7 @@ The Development Process. Scaling. Models. Simulations. The Digital Divide. Ethic
 
 ## Recommended Order
 
-We present below a recommended ordering of the curriculum and some recommended timetables. These recommendations are based on a 36-week long school year, where students are available for 180 classroom minutes. However, student experience can vary widely; these recommendations are designed to capture an "average" class.
+We present below a recommended ordering of the curriculum and a suggested timetable. These recommendations are based on a 36-week long school year, where students are available for 180 classroom minutes. However, student experience can vary widely; these recommendations are designed to capture an "average" class.
 
 1. Understanding Technology (3 weeks)
 2. Chapter 0 (2 weeks)
