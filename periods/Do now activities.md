@@ -22,4 +22,13 @@
   - else checkout the memory and algorithms Quizlet
   
 - ### Week 4
-  - Monday 15 September: Go to this [google forms](https://forms.gle/6NSbSvMXAeWKkHHB9) and first take the survey to guide your next steps for today's class on Scratch.
+ - Monday 15 September: Go to this [google forms](https://forms.gle/6NSbSvMXAeWKkHHB9) and first take the survey to guide your next steps for today's class on Scratch.
+  
+ - Wednesday 17 September: 
+ - Must haves: 
+   - Complete your thought questions for Day 1 Scratch
+   - Find one person to discuss one of the questions with. Compare your answers. Is there anything you need to add? 
+   - Go to our class tab of CS50- find the REVIEW MATERIALS FOR SCRATCH and choose one that you will focus on at the start of class. 
+ - Amazings: 
+   - Go to our class tab of CS50- find the REVIEW MATERIALS FOR QUIZZES and look at the [personal goals link](https://drive.google.com/open?id=1t76TM7Dv5Ds9wiwHf6ANgIKViVD9j227VS6uiPjPO9c). Make a plan for when you will do this review and add it to your planner diary.
+
