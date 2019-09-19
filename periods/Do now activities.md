@@ -31,4 +31,8 @@
    - Go to our class tab of CS50- find the REVIEW MATERIALS FOR SCRATCH and choose one that you will focus on at the start of class. 
  - Amazings: 
    - Go to our class tab of CS50- find the REVIEW MATERIALS FOR QUIZZES and look at the [personal goals link](https://drive.google.com/open?id=1t76TM7Dv5Ds9wiwHf6ANgIKViVD9j227VS6uiPjPO9c). Make a plan for when you will do this review and add it to your planner diary.
+   
+ - Friday 19 September: 
+ 
+ Do later: Go to [Padlet](https://padlet.com/suziede3/coliisb54dwn) and post your answer to the question.
 
