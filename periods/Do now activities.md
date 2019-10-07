@@ -44,6 +44,6 @@
  
  - Thursday 10/October: 
   - Must haves; Look at the 3 starting point questions for day 2 in this [document](https://docs.google.com/document/d/1ch0RxnKSWg9JZERyNU_uQWoljp9M1qphrwtqWP6TA9s/edit?usp=sharing). Meet with an elbow partner. Discuss first, then add your names and answers to the document.
-  - Amazings: Go to [Albert](https://www.albert.io) and join my class by entering my class code: ABCR9N4U8BNC
+  - Amazings: Go to [Albert](https://www.albert.io) and join my class by entering my class code; Period 2: ABCR9N4U8BNC, Period 3; V930N2QHBWNS
 
 
