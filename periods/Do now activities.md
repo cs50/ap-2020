@@ -35,4 +35,15 @@
  - Friday 19 September: 
  
  Do later: Go to [Padlet](https://padlet.com/suziede3/coliisb54dwn) and post your answer to the question.
+ 
+ - ### Week 6 
+ 
+ - Tuesday 8/October: 
+  - Must haves; meet with an elbow partner. Show them your lecture notes. Look at the 3 questions for day 1 in this [document](https://docs.google.com/document/d/1ch0RxnKSWg9JZERyNU_uQWoljp9M1qphrwtqWP6TA9s/edit?usp=sharing). Discuss first, then add your names and answers to the document.
+  - Amazings: Look at this [quizlet](https://quizlet.com/437044245/cs50-ide-basics-diagram/) to be familiar with the CS50 IDE. Look in the [Chapter 1 shared folder](https://drive.google.com/open?id=1MgRQNY2GiRnq6zsC9kvrwDiPlRLCTMAI)
+ 
+ - Thursday 10/October: 
+  - Must haves; Look at the 3 starting point questions for day 2 in this [document](https://docs.google.com/document/d/1ch0RxnKSWg9JZERyNU_uQWoljp9M1qphrwtqWP6TA9s/edit?usp=sharing). Meet with an elbow partner. Discuss first, then add your names and answers to the document.
+  - Amazings: Go to [Albert](https://www.albert.io) and join my class by entering my class code: ABCR9N4U8BNC
+
 
