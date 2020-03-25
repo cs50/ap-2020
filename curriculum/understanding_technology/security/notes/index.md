@@ -20,6 +20,7 @@
       - phone number
       - medical information
       - biometric information
+- PII and other information placed online can be used to enhance a user’s online experiences.
 
 ## Deleting Files
 
@@ -74,7 +75,7 @@ Set-Cookie: session=29823bf3-075a-433a-8754-707d05c418ab
   - History likely not securely scrubbed
   - Will protect you from nosey friends
   - Websites will forget you visited as the cookies will be deleted as well!
-- Search engines can use your history and  cookies to suggest targeted websites or products based on websites you've visited. This can be considered convenient but this information can also be sold or misused in a variety of ways both individually and at scale.
+- Search engines can use your history and  cookies to suggest targeted websites or products based on websites you've visited. Targeted advertising is used to help businesses, but it can be misused at both individual and aggregate levels.
 - Every convenience that these technologies offer us comes with a cost. We can have our browser store things like our shipping information or credit card number to make it that much easier to purchase things online, but if someone were to gain access to our machine, they too would acquire this information. This too, brings up ethical concerns. How accountable are companies for our data? What are their obligations to their users in regards to how their data is used and stored? Are these businesses intentionally trying to harm us by selling or distributing our data?
 - Computing can even play a part in social and  political issues, like in 2018, when [Cambridge Analytica](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal) harvested user Facebook data fro political advertising.
 
@@ -288,10 +289,10 @@ Set-Cookie: session=29823bf3-075a-433a-8754-707d05c418ab
   - Algorithms/software
   - Manufacturers
   - Websites
-- Everything we post online can be used in a way that is unintended. Anyone who can view the things we post can repost it, screenshot it, forward it to others, etc.
+- Everything we post online can be used in a way that is unintended. Anyone who can view the things we post can repost it, screenshot it, forward it to others, etc. Information placed online can be used in ways that were not intended and that may have a harmful effect.
 - Using multiple usernames and pseudonyms can help obscure your identity online, but combining various types of information available online can help others deduce private information about you
 - We've downloaded software with trust that it will only do what it claims
-  - Word could log your key strokes
+  - Word could log your key strokes, also called keylogging. This is the use of a program to record every keystroke made by a computer user in order to gain fraudulent access to passwords and other confidential information.
   - Chrome could monitor you even when not on Google's website
   - Snapchat could not delete posts after being seen
 - There have been cases where software was written to cover tracks of being monitored!

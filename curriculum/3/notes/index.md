@@ -617,7 +617,9 @@
     < block of statements >
     }
     ```
-    and when you want to return a value, you would use:
+    which is used to define a procedure that takes zero or more arguments. The procedure contains a block of statements.
+
+    When you want to return a value, you would use:
     ```html
     PROCEDURE procName(parameter1, parameter2, …)
     {
@@ -625,8 +627,10 @@
     RETURN(expression)
     }
     ```
+    which is used to define a procedure that takes zero or more arguments. The procedure contains block of statements and returns the value of expression. The RETURN statement may appear at any point inside the procedure and causes an immediate return from the procedure back to the calling statement.
+    
     * The syntax to call a function is `procName (arg1, arg2, …)`, where `procName` is the name of the procedure or function and `arg1` and `arg2` are the arguments or parameters.
     * To call said procedure, the syntax would be `procName(parameter1)`, where `parameter1` is the actual value of the first argument.
     * The `RETURN(expression)` syntax operates just the same as the return keyword in C.
     * Storing the output of a function in a variable would look like this: `result ← procName(arg1, arg2, …)`
-    * You are provided with an `INPUT` function, which takes input from the user and returns that value.
+    * You are provided with an `INPUT()` function, which takes input from the user and returns that value.

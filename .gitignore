@@ -1,6 +1,0 @@
-.*
-!.gitignore
-
-_site
-
-Gemfile.lock

@@ -14,3 +14,8 @@
   * [Transistors and Logic](https://ap.cs50.school/assets/pdfs/transistors_and_logic.pdf)
   * [Trust Models](https://ap.cs50.school/assets/pdfs/trust_models.pdf)
   * [Virtual and Augmented Reality](https://ap.cs50.school/assets/pdfs/virtual_and_augmented_reality.pdf)
+
+* After completion of this chapter, teachers can assign:
+  * topic questions #xyz
+  * ...
+  * ...

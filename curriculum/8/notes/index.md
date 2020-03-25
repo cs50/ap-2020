@@ -9,7 +9,7 @@
 * We've been introduced to web programming, where we've learned to use Flask, a framework written in the language of Python, to build dynamic web-based applications.
 * The internal structure of our applications have followed a paradigm, or methodology, called MVC, Model-View-Controller, where code used for different functions are organized in different files and folders, and interact with each other in predictable ways.
 * But until now, we haven't had much code in our Model layer. We've used CSVs to read and write data, but those rows of text are a bit clunky to work with.
-* CS50 Finance will use a database language, SQL, to work with data more efficiently. It will also use a real third-party API, application programming interface, to get real-time data on stock prices, allowing users to "buy" and "sell" virtual stocks. We'll be able to access the API's functions by reading its documentation.
+* CS50 Finance will use a database language, SQL, to work with data more efficiently. It will also use a real third-party API, application programming interface (specifications for how the procedures in a library behave and can be used), to get real-time data on stock prices, allowing users to "buy" and "sell" virtual stocks. We'll be able to access the API's functions by reading its documentation. Documentation for an API/library is necessary in understanding the behavior(s) provided by the API/library and how to use them.
 
 ## Logging in
 

@@ -69,7 +69,7 @@
   ```
   * We see an error, when we try to `make` this program, that we didn't include a missing header file.
   * We can also run `help50 make buggy0`, which will tell us, at the end, that we should `#include <stdio.h>`, which contains `printf`.
-  * We do that, and see another error, and realize we're missing a semicolon at the end of our line.
+  * We do that, and see another error, and realize we're missing a semicolon at the end of our line. This is called a syntax error.
 * Let's look at another program:
   ```c
   #include <stdio.h>
@@ -82,7 +82,7 @@
       }
   }
   ```
-  * Hmm, we intended to only see 10 `#`s, but there are 11. If we didn't know what the problem is (since our program is working as we wrote it), we could add another print line to help us:
+  * Hmm, we intended to only see 10 `#`s, but there are 11. This is known as a logic error. If we didn't know what the problem is (since our program is working as we wrote it), we could add another print line to help us:
     ```c
     #include <stdio.h>
 
@@ -127,6 +127,7 @@
 ## Arrays
 
 * In memory, we can store variables one after another, back-to-back. And in C, a list of variables stored, one after another in a contiguous chunk of memory, is called an *array* [^bignote].
+* Arrays are considered data abstractions. They provide a separation between the abstract properties of a data type and the concrete details of its representation.
 * It turns out, we can do interesting things with just an array.[^2]
 * Let's look at `scores0.c`:
   ```c
@@ -668,13 +669,14 @@
 * We look at demos like [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms) and [What different sorting algorithms sound like](https://www.youtube.com/watch?v=t8g-iYGHpEA) to conclude.
 * Typically programs that run at polynomial time or faster (_O(1)_, _O(n)_, _O(n<sup>2</sup>_) are considered to run in a reasonable amount of time, where as those that run at exponential or factorial time (_O(2<sup>poly(n)</sup>)_, _O(n!)_) are not.
 * There are some problems that cannot be solved in a reasonable amount of time so can use approximations, called heuristics, to get a solution that is not optimal but comes close to solving the problem.
+* For example, if we wanted to calculate the area under a curve between two points, we could write a program that calculates the definite integral or we could approximate the area using [Riemann sums](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-2/a/left-and-right-riemann-sums). The first operation is more "computationally expensive" than the latter. This means if we don't care about being super precise, we can get a good estimate by using our estimate.
 * Decidable problems are ones that we can determine the correct output, like whether or not a number is a number prime or not. Within this range of problems are varying levels of opportunities for optimization, or finding the best solution for a problem. Undecidable problems, like the [halting problem](https://www.youtube.com/watch?v=92WHN-pAFCs), cannot determine the output of program. Like the halting problem, some of the inputs can be solved but not all.
 
 ## Computational Models
 
 * There are three main computational models:
   * Parallel computing, whereby two or more algorithms are running in parallel, or at the same time.
-  * Distributed computing, whereby two or more machines are running programs and communicating with one another
+  * Distributed computing, whereby two or more machines are running programs and communicating with one another. It also allows problems to be solved that could not be solved on a single computer because of either the processing time or storage needs involved.
   * Sequential computing, whereby an entire program is run in order on one machine
 
 * Some algorithms can be implemented in multiple models, while others cannot
@@ -689,6 +691,8 @@
   * Sequential solutions take as long as the sum of all of its steps.
   * We can even calculate the speedup, or the ratio between sequential and parallel solutions' run times by dividing the runtime of the sequential solution by the runtime of the parallel solution.
 
+* Imagine we wanted to solve a complicated math problem. We can think of a sequential model as one where we solve the problem step by step, moving on once we calculate one part. In a distributed model, we could imagine having some friends help us out, where each person calculates one portion then putting these pieces together to get the answer. A parallel model would also require a little help from our friends whereby each friend does a few sequential steps and then we put those answers together to get our final answer.
+
 * Parallel solutions are typically able to scale better than sequential solutions as well. This means that they can handle large increases of data much better than sequential ones can.
 
 * Parallel solutions can be made even faster by increasing the number of processors used (granted that your machine can handle this load). This can also us to run two or three or _n_ algorithms simultaneously. We are limited though by our hardware, as well as the sequential portion of our solution, since there is a point when adding more parallel portions doesn't decrease runtime a significant amount.
@@ -701,8 +705,8 @@
 
 ---
 
-[^bignote]:In the exam reference sheet for the AP CSP exam: `[value1, value2, value3…]` is the syntax for an array, `aList ← [value1, value2, value3…]` stores a list in a variable `aList`, `aList ← []` initiates an empty list and assigns it to `aList`, `aList ← bList` stores a copy of `bList` in `aList`, and lists are 1 indexed instead of 0 indexed like in C. To access the first element in `aList`, use `aList[1]`, to assign a value to an element in a list to a variable, `x`, use `x` ← `aList [i]`. Assigning a variable to an element of a list can be done with `aList[i] ← x`.
+[^bignote]:The exam reference sheet provides basic operations on lists. In the exam reference sheet for the AP CSP exam: The exam reference sheet describes a list structure whose index values are 1 through the number of elements in the list, inclusive. For all list operations, if a list index is less than 1 or greater than the length of the list, an error message is produced and the program will terminate. `[value1, value2, value3…]` is the syntax for an array, `aList ← [value1, value2, value3…]` stores a list in a variable `aList`, `aList ← []` initiates an empty list and assigns it to `aList`, `aList ← bList` stores a copy of `bList` in `aList`, and lists are 1 indexed instead of 0 indexed like in C. To access the first element in `aList`, use `aList[1]`, to assign a value to an element in a list to a variable, `x`, use `x` ← `aList [i]`. Assigning a variable to an element of a list can be done with `aList[i] ← x`.
 
-[^2]: In the exam reference sheet for the AP CSP exam, we have access to even more functionality with lists, like inserting an item into a list as with `INSERT(list name, index, value)`, appending an item to a list as with `APPEND(list name, value)`, remove items as with `REMOVE(list name, i)`, and you can find the length with `LENGTH(list name)`.
+[^2]: In the exam reference sheet for the AP CSP exam, we have access to even more functionality with lists. We can insert an item into a list by shifting to the right any values in aList at indices greater than or equal to i as with `INSERT(list name, index, value)`. The length of the resulting list is increased by 1, and value is placed at index i in aList. We can append an item to a list by increasing the length of aList by 1, and placing the value at the end of aList as with `APPEND(list name, value)`. We can remove items by removing the item at index i in aList and shifting to the left any values at indices greater than i as with `REMOVE(list name, i)`. The length of aList is decreased by 1. We can also determine the length with `LENGTH(list name)`.
 
 [^3]: The term substring is also associated with strings. These are parts of an existing string. For example, "vision" would be a substring of "Television".

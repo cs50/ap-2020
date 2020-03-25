@@ -8,3 +8,8 @@
   * [Artificial Intelligence and Machine Learning](https://ap.cs50.school/assets/pdfs/artificial_intelligence_and_machine_learning.pdf)
   * [Models and Simulations](https://ap.cs50.school/assets/pdfs/models_and_simulations.pdf)
   * [Version Control and Documentation](https://ap.cs50.school/assets/pdfs/version_control_and_documentation.pdf)
+
+* After completion of this chapter, teachers can assign:
+  * topic questions #xyz
+  * ...
+  * ...

@@ -20,7 +20,7 @@
 
 ## HTTP
 
-* **HTTP**, Hypertext Transfer Protocol, is another set of rules and conventions for communicating. For example, humans might have the convention of shaking hands when meeting for the first (or subsequent) times. When our browser communicates to web servers through HTTP, too, both computers follow a protocol for making requests and responses.
+* **HTTP**, Hypertext Transfer Protocol, is another set of rules and conventions for communicating. HTTP is considered a computing innovation. For example, humans might have the convention of shaking hands when meeting for the first (or subsequent) times. When our browser communicates to web servers through HTTP, too, both computers follow a protocol for making requests and responses.
 * A request for a webpage will look like this:
   ```
   GET / HTTP/1.1

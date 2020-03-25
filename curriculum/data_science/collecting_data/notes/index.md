@@ -12,13 +12,13 @@ Data science can be defined as using data systematically to make decisions or ob
 
 Representing values in the real world digitally, isn't always as easy as it sounds. We've already seen how computers can't really store numbers like 1/3, but what other data do computers have difficultly representing?
 
-Turns out computers rely on pixels to display images. Each pixel is made up of three values: red, green, and blue. These are called RGB values. Often times various hardware and software have different color palletes, or bit depths.
+Turns out computers rely on pixels to display images. Each pixel is made up of three values: red, green, and blue. These are called RGB values. Often times various hardware and software have different color pallets, or bit depths.
 
 For example, if we were to represent an image using 8-bit color we would have access to 2<sup>8</sup> values or 256 distinct colors. If we were then able to use 24-bit color we'd have access to 2<sup>24</sup> values or 16,777,216 colors.
 
 ![bit depth animation](bit_depth.gif)
 
-This notion of bit depth means that we can't actually represent all the colors we see in the real world digitally, rather we have to approximate them to the nearest value we can represent.
+This notion of bit depth means that we can't actually represent all the colors we see in the real world digitally, rather we have to approximate them to the nearest value we can represent. These are just some of many types of abstraction.
 
 ## Signals
 

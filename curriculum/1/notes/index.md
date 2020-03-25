@@ -7,13 +7,15 @@
 ## Last Time
 
 * We learned that, thanks to many layers of abstraction and those who came before us, we can easily write programs that are ultimately just binary, 0s and 1s.
-* Problem solving can be described as taking some inputs (a problem) and using an algorithm to find some outputs (a solution).
+* Problem solving can be described as taking some inputs (a problem) and using an algorithm to process some outputs (a solution) based on the input and/or existing internal values.
+* A decision problem is a problem with a yes/no answer  (e.g., is there a path from A to B?). An optimization problem is a problem with the goal of finding the "best" solution among many (e.g., what is the shortest path from A to B?).
 * Computers represent inputs and outputs with lots of bits, binary digits, 0s and 1s, that are on or off. And with enough of those bits, we can represent not only larger numbers, but text, images, and video.
 * And there can be different algorithms that can solve the same problem, but with different running times.
 * We can write down algorithms more precisely with pseudocode, and along the way use concepts like functions, loops, and conditions.
   * With the help of volunteers from the audience, we make peanut butter and jelly sandwiches from ingredients, though each of us interpreted the instructions differently!
 * It turns out, we (as humans) naturally make assumptions and abstractions when following instructions or even pseudocode. But as we saw in Scratch, and as we will see in C, we won't be able to do that anymore, and will have to think more carefully about the steps and cases that our programs will need to handle.
   * With Scratch, we were able to leverage the work done by the folks at MIT, who created the blocks, and sprites, to make programs of our own. And we too made custom blocks like the `cough` function, that was a layer of abstraction of our own.
+* Knowledge of existing algorithms can help in constructing new ones
 
 ## C
 
@@ -30,7 +32,7 @@
     ![block labeled 'when green flag clicked', block labeled 'say (hello, world)'](when_green_flag.png)
 * We can compare a lot of the constructs in C, to blocks we've already seen and used in Scratch. The syntax is far less important than the principles, which we've already been introduced to.
 * The "say (hello, world)" block is a function, and maps to `printf("hello, world\n");`[^1]. In C, the function to print something to the screen is `printf`, where `f` stands for "format", meaning we can format the string in different ways. Then, we use parentheses to pass in what we want to print. We use double quotes to surround our text, or string, and add a `\n` which indicates a new line on the screen. (Then, the next time we call `printf`, our text will be on a new line. Finally, we add a semicolon `;` to end this line of code in C.
-* The "set [counter] to (0)" block is creating a variable, and in C we would say `int counter = 0;`, where `int` specifies that the type of our variable is an integer and the equals sign indicates assignment [^2]
+* The "set [counter] to (0)" block is creating a variable, and in C we would say `int counter = 0;`, where `int` specifies that the type of our variable is an integer and the equals sign indicates assignment [^2]. The value stored in a variable will be the most recent value assigned.
 :<br>
   ![block labeled 'set counter to (0)'](set_counter_to_0.png)
 * "change [counter] by (1)" is `counter = counter + 1;` in C. (In C, the `=` isn't like an equation, where we are saying `counter` is the same as `counter + 1`. Instead, `=` means "copy the value on the right, into the value on the left".) We can also say `counter += 1;` or `counter++;` both of which are "syntactic sugar", or shortcuts that have the same effect with fewer characters to type.<br>
@@ -339,6 +341,8 @@
 | `||` | OR | `x < 2 || y > 3` --> `true` |
 | `!` | NOT | `!(x==y)` --> `true` |
   * Notice that we use a `||` to indicate an "or" in our Boolean expression. (A logical "and" would be `&&`.)
+  * The operand for a logical operator is either a Boolean expression or a single Boolean value.
+  *  Some conditional statements can be written as equivalent Boolean expressions and  some Boolean expressions can be written as equivalent conditional statements.
 * In Scratch, we were able to create our own block, that we called "cough". We can do the same in C, by creating our own function.
 * If we wanted to print "cough" 3 times, we could use a `for` loop:
   ```c
@@ -421,6 +425,12 @@
       return n;
   }
   ```
+  *  Every algorithm can be constructed using combinations of sequencing, selection, and iteration.
+  * Sequencing is the application of each step of an algorithm in the order in which the code statements are given.
+  *  A code statement is a part of program code that expresses an action to be carried out.
+  * An expression can consist of a value, a variable, an operator, or a procedure call that returns a value.
+  * Expressions are evaluated to produce a single value.
+  * The evaluation of expressions follows a set order of operations defined by the programming language.
   * The CS50 library doesn't had a `get_positive_int` function, but we can write one ourselves. In our function, we initialize a variable, `int n`, but not assign a value to it yet. Then, we have a new construct, `do ... while`, which does something _first_, then checks a condition, and repeats until the condition is no longer true.
   * Then, once we have an `n` that is not `< 1`, we can return it with the `return` keyword. And back in our `main` function, we can set `int i` to that value.
   * In C, variables also have *scope*, which generally means that they only exist within the curly braces that they were declared. For example, if we had `int n = get_int(...)` within the do-while loop, we wouldn't be able to `return` it, since that line would be outside of the scope of `n`. (Similarly, our `main` function can't directly see any variables inside `get_positive_int`, since each function has its own set of curly braces and thus different scopes for variables declared inside them.)
@@ -462,7 +472,7 @@
     ```
   * It turns out, our program recognized that a signed integer (an integer with a positive or negative sign) couldn't store that next value, and printed an error. Then, since it tried to double it anyways, `i` became a negative number, and then 0.
 * The Y2K problem arose because many programs stored the calendar year with just two digits, like 98 for 1998, and 99 for 1999. But when the year 2000 approached, the programs would have stored 00, leading to confusion between the years 1900 and 2000.
-* A Boeing 787 airplane also had a bug where a counter in the generator overflows after a certain number of days of continuous operation, since the number of seconds it has been running could no longer be stored in that counter.
+* A Boeing 787 airplane (another type of computing innovation) also had a bug where a counter in the generator overflows after a certain number of days of continuous operation, since the number of seconds it has been running could no longer be stored in that counter.
 * In an older version of Civilization, integer underflow leads to one of the characters, Gandhi, becoming much more aggressive since his "aggression" value, already low,  becomes large when too much is subtracted from it. For example, if we had `00000001` stored, and subtract 1 from it, we would have `00000000`. But if we were to subtract 2, we actually roll backwards to `11111111`, which is the largest positive value!
 * So, we've seen a few problems that can happen, but hopefully now too understand why and how to prevent them.
 * With this week's problem set, we'll use the CS50 Lab, built on top of the CS50 Sandbox, to write some programs with walkthroughs to guide us.
@@ -480,6 +490,7 @@
     <block of statements>
     }
     ```
+    in which the code in block of statements is executed if the Boolean expression condition evaluates to true; no action is taken if condition evaluates to false.
     and the syntax for an `if-else` block is
     ```
     IF(condition)
@@ -491,6 +502,7 @@
      <second block of statements>
     }
     ```
+    in which the code in first block of statements is executed if the Boolean expression condition evaluates to true; otherwise, the code in second block of statements is executed.
 
 [^4]: The syntax for a `for` loop in the AP CSP Exam reference sheet is:
     ```
@@ -499,6 +511,7 @@
      <block of statements>
     }
     ```
+    in which the block of statements is executed n times.
     The syntax for a `while` loop in the AP CSP Exam reference sheet is:
     ```
     REPEAT UNTIL(condition)
@@ -506,6 +519,12 @@
      <block of statements>
     }
     ```
+    in which the code in block of statements is repeated until the Boolean expression condition evaluates to true.
+
+    In REPEAT UNTIL(condition) iteration, an infinite loop occurs when the ending condition will never evaluate to true.
+
+    In REPEAT UNTIL(condition) iteration, if the conditional evaluates to true initially, the loop body is not executed at all, due to the condition being checked before the loop.
+
     The syntax for iterating over a list in the AP CSP Exam reference sheet is:
     ```
     FOR EACH item IN aList
@@ -513,8 +532,9 @@
      <block of statements>
     }
     ```
+    The variable item is assigned the value of each element of aList sequentially, in order, from the first element to the last element. The code in block of statements is executed once for each assignment of item.
 
-[^5]: In the exam reference sheet for the AP CSP exam:
+[^5]: In the exam reference sheet for the AP CSP exam, assume that `a` is an integer greater than or equal to 0 and `b` is an integer greater than 0:
     * `a + b` indicates addition
     * `a - b` indicates subtraction
     * `a * b` indicates multiplication

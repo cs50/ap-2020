@@ -182,7 +182,7 @@
       print("no")
   ```
   * Strings can be compared directly, and Boolean expressions can include the words `and` and `or`.
-* We can write functions in Pythons like this:
+* Just like in C, Python lets us develop procedural abstractions to manage complexity in a program by writing procedures.We can write functions in Pythons like this:
   ```python
   def main():
       for i in range(3):

@@ -90,7 +90,7 @@
     - The language that web servers speak
   - Google will send the request to their web server via http
 - Many websites use secure connections with SSL or HTTPS, which uses the port 443
-- These SSL certificates validate encryption keys used in secure communications. They are typically issued by a certificate authority. 
+- Certificate authorities issue digital certificates that validate the ownership of encryption keys used in secure communications and are based on a trust model.
 - Email uses port 25
 - Other ports exist as well
 
@@ -98,6 +98,7 @@
 
 - Protocols are just sets of rules
   - Humans use these all the time, such as the protocol for meeting people: handshakes
+- The protocols used in the Internet are open, which allows users to easily connect additional computing devices to the Internet.
 - When a request is made to Google for an image, HTTP tells Google how to respond appropriately
 - The world wide web is an application used to view webpages, programs, and files that uses the HTTP protocol. These webpages are prefixed with `http://www`.
 - The world wide web uses the internet, which is a much larger system comprised of networks, connecting millions of computers.

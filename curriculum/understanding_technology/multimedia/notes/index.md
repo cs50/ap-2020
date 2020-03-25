@@ -125,6 +125,7 @@
 
 - Graphical file formats can often be compressed
 - Can be done lossy or losslessly
+  - In situations where quality or ability to reconstruct the original is maximally important, lossless compression algorithms are typically chosen.
   - With audio, we threw away audio information that the human ear can't necessarily hear
     - This is lossy compression; throwing information away
   - Using fewer bits to represent the same information is lossless compression
@@ -155,6 +156,7 @@
     - "Does this leaf really need this many shades of green"
       - Replaces bits with only a few colors giving an approximation
       - I will not be able to know how clear the sky used to be from this information
+      - In situations where minimizing data size or transmission time is maximally important, lossy compression algorithms are typically chosen.
 
 ## Image File Formats
 

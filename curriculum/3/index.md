@@ -31,3 +31,8 @@
   * [Hexadecimal](https://ap.cs50.school/assets/pdfs/hexadecimal.pdf)
   * [Images](https://ap.cs50.school/assets/pdfs/images.pdf)
   * [Structures and Encapsulation](https://ap.cs50.school/assets/pdfs/structures_and_encapsulation.pdf)
+
+* After completion of this chapter, teachers can assign:
+  * topic questions #xyz
+  * ...
+  * ...

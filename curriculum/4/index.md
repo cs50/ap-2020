@@ -16,3 +16,8 @@
   * [Sandbox](https://sandbox.cs50.io/86b99f4c-deb6-4a5b-8d1f-75d5dbf9a35d)
   * [ZIP](https://cdn.cs50.net/2018/fall/lectures/4/src4.zip)
 * [Video](https://video.cs50.net/2018/fall/lectures/4)
+
+* After completion of this chapter, teachers can assign:
+  * topic questions #xyz
+  * ...
+  * ...
