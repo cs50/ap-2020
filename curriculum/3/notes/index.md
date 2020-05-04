@@ -48,9 +48,9 @@
 * After we write a program from a problem set, and have tested it ourselves with a few inputs, we can type `check50 cs50/problems/2019/ap/hello`. The `cs50/problems/2019/ap/hello` is an indicator for the program specification that `check50` should check, and once we run that command, we'll see `check50` uploading our code and checking it.
 * We can also now use a tool called a *debugger*, built into the CS50 IDE.
 * After we compile our code, we can run `debug50 ./hello`, which will tell us to set a breakpoint first. A *breakpoint* indicates a line of code where the debugger should pause our program, until we choose to continue it. For example, we can click to the left of a line of our code, and a red circle will appear:<br>
-  ![code editor with red icon next to line 6 of code](/breakpoint.png)
+  ![code editor with red icon next to line 6 of code](breakpoint.png)
 * Now, if we run `debug50 ./hello` again, we'll see the debugger panel open on the right:<br>
-  ![debugger panel with controls, variables](/debugger_panel.png)
+  ![debugger panel with controls, variables](debugger_panel.png)
 * We see that the variable we made, `name`, is under the `Local Variables` section, and see that there's a value of `0x0` (which is `null`), and a type of `string`, as we expected.
 * Our breakpoint has paused our program _before_ line 6, so to continue, we have a few controls in the debugger panel. The blue triangle will continue our program until we reach another breakpoint. The curved arrow to its right will "step over" the line, running it and pausing our program again immediately after. The arrow pointing downward will "step into" the line, if there is a function being called. And the arrow pointing up and to the right will "step out" of a function, if we are in one.
 * So, we'll use the curved arrow to run the next line, and see what changes after. After we type in our name, we'll see that the `name` variable is also updated in the debugger.
@@ -107,10 +107,10 @@
   * Hmm, no matter what we type in for our strings, our program thinks they are different.
 * It turns out, `string` is not actually a data type in C. The word "string" is common in computer science, but there is no way to store strings in C. Instead, we defined that type in the CS50 Library.
 * Recall that strings are just arrays of characters, so when we ran our `compare1` program, we got two strings as input from the user, and those might be stored in memory as the following:<br>
-  !["Brian\0" and "Veronica\0" in different grids](/strings.png)
+  !["Brian\0" and "Veronica\0" in different grids](strings.png)
   * Each character is in one byte, and somewhere we have bytes in memory containing the values for each of string.
 * It turns out, each byte in memory has a numeric location, or *address*. For example, the character `B` might have the address 100, and `V` might have ended up in `900` (depending on what parts of memory were available, or free):<br>
-  !["Brian\0" and "Veronica\0" in different grids, with each grid, or byte in memory, labelled](/strings_with_addresses.png)
+  !["Brian\0" and "Veronica\0" in different grids, with each grid, or byte in memory, labelled](strings_with_addresses.png)
   * Notice that, since each string is an array of characters, each character within the array has consecutive addresses, since they are stored next to each other in memory. But the strings themselves might have very different addresses.
 * So, `get_string` actually returns just the address of the first character of the string. (We can tell where it ends by looking for the `null` character, `\0`.) Now, we can infer that comparing two "strings" actually just compares two addresses (which will always be different, since `get_string` stores the input in a new place each time), even if the characters stored at those addresses are the same.
 * Other data types in C, such as `int`s or `float`s, are generally passed and stored as their values, since they are always a fixed number of bytes. Strings, on the other hand, are passed as their addresses, since they could be really long.
@@ -304,7 +304,7 @@
   * We get a string `s`, and copy the value of `s` into `t`. Then, we capitalize the first letter in `t`.
   * But when we run our program, we see that both `s` and `t` are now capitalized.
   * Since we set `s` and `t` to the same values, they're actually pointers to the same character, and so we capitalized the same character:<br>
-    ![s and t variables pointing to the same string](/pointers.png)
+    ![s and t variables pointing to the same string](pointers.png)
 * To actually make a copy of a string, we have to do a little more work:
   ```c
   #include <cs50.h>

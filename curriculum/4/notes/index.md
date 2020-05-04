@@ -109,7 +109,7 @@
 * We can do the opposite, and ask for just enough memory for one element, like one integer, at a time. But they might be stored anywhere in the heap, so we need a way to link each element to the next, via a stored pointer.
 * With this data structure, called a linked list, we lose the ability to randomly access elements. For example, we can no longer access the 5th element of the list by calculating where it is, in constant time. (Since we know arrays store elements back-to-back, we can add 1, or 4, or the size of our element, to calculate addresses.) Instead, we have to follow each element, one at a time.
 * And we create a linked list by allocating, for each element, enough memory for both the value, and a pointer to the next element. We'll call these nodes:<br>
-  ![linked list with node at address 100 with value 42 and pointer to address 475, which has value 50 and pointer to address 150, which has value 13 and pointer to NULL](/linked_list.png)
+  ![linked list with node at address 100 with value 42 and pointer to address 475, which has value 50 and pointer to address 150, which has value 13 and pointer to NULL](linked_list.png)
   * We have three nodes at various addresses in memory, `100`, `150`, and `475`. Each node has the value we want to store, and also a pointer to the next node. The final node has a pointer of `NULL`, indicating the end of our linked list.
 * In code, we might create our own struct called `node`, with an `int` and a pointer to the next `node` called `next`:
   ```c
@@ -314,7 +314,7 @@
 * We, as humans, might make smaller lists where each person whose name starts with "A" will be in one list, "B" in another, and so on. We can represent this concept with a *hash table*, where each value to be stored is _hashed_ by a _hash function_. The resulting _hash_ might be a number, and in this case might be `0` for a string that starts with `A`, `1` for a string that starts with `B`, and so on, but the important part is that we can use that number to index into some array. The array, in turn, will have a linked list for each letter of the alphabet (or more generally, a linked list for each _bucket_), and so this data structure is called a hash table.
   * Now, each linked list (in our example of strings) will only be, on average, 1/26th the size of a list with all the strings together. In the worst case, all the strings will end up in the same bucket (if they happen to start with the same letter), and we would have _O_(_n_) running time, like an unsorted array. We can also use a different hash function, which might distribute our elements more evenly. But in the real world, our running time is likely to be much lower with a hash table. And we can even have more buckets in our hash table, so each list is an even smaller proportion.
 * A *tree* is another data structure where each node points to two other nodes, one to the left (with a smaller value) and one to the right (with a larger value):<br>
-  ![tree with node 55 at top center, left arrow to 33 below, right arrow to 77 below; 33 has left arrow to 22 below, right arrow to 44 below; 77 has left arrow to 66 below, right arrow to 88 below](/tree.png)
+  ![tree with node 55 at top center, left arrow to 33 below, right arrow to 77 below; 33 has left arrow to 22 below, right arrow to 44 below; 77 has left arrow to 66 below, right arrow to 88 below](tree.png)
   * Now, we can easily do binary search, and since each node is pointing to another, we can also insert nodes into the tree without moving all of them around as we would have to in an array. Recursively searching this tree would look something like:
   ```c
   typedef struct node
@@ -344,6 +344,6 @@
   }
   ```
 * We can use another data structure called a *trie* (pronounced like "try", and is short for "retrieval"):<br>
-  ![array with blanks, and letters M, P, T; each letter points to another array, with blanks, and some letters that each point to other arrays and letters in them](/trie.png)
+  ![array with blanks, and letters M, P, T; each letter points to another array, with blanks, and some letters that each point to other arrays and letters in them](trie.png)
   * Imagine we want to store a dictionary of words efficiently, and be able to access each one in constant time. A trie is like a tree, but each node is an array. Each array will have each letter, A-Z, stored. For each word, the first letter will point to an array, where the next valid letter will point to another array, and so on, until we reach something indicating the end of a valid word. If our word isn't in the trie, then one of the arrays won't have a pointer or terminating character for our word.
 * In our upcoming problem set, we'll use what we've learned about pointers and data structures to implement a spell-checking program, and gain an understanding of how something that might work at a low level.
